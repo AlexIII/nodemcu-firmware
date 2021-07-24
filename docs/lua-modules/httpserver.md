@@ -5,6 +5,9 @@
 
 This Lua module provides a simple callback implementation of a [HTTP 1.1](https://www.w3.org/Protocols/rfc2616/rfc2616.html) server.
 
+!!! attention
+    HTTP Server Module depends on the [fifosock](fifosock.md), [fifo](fifo.md) and [net](../modules/net.md) modules.
+
 ### Require
 ```lua
 httpserver = require("httpserver")
